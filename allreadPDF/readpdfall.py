@@ -14,7 +14,7 @@ for file in temp_cfn:
         for annots in page.get('/Annots'):
             uri = annots.get('/A').get('/URI')
             if(uri is not None):
-                print("\n\n",'[FILE] '+ str(file) +'\n [+] URL FOUND ', uri)
+                print( "\n\n", '[FILE] '+ str(file) +'\n [+] URL FOUND ' , uri, "\n\n" )
                 urls.append(urls)
 
 print("[*] Total URLs extracted:", len(urls))
