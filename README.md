@@ -7,7 +7,8 @@
 
 In this repo, I would like to automate gathering of links placed in pdf files and then download the link which is off google drive type
 
-
+-  Reading all the pdf in given directory 
+-  Reading text info from a pdf 
 
 
 
